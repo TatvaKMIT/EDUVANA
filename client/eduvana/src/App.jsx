@@ -10,6 +10,7 @@ import Progress from "./pages/Progress";
 // import AIAssistant from "./pages/AIAssistant";
 import "./App.css";
 import CollaborativeLearning from "./pages/CollaborativeLearning";
+import LearnAI from "./pages/LearnAI";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             {/* <Route path="/learning" element={<TesseractLearning />} /> */}
             {/* <Route path="/ai-assistant" element={<AIAssistant />} /> */}
             <Route path="/collaborative-learning" element={<CollaborativeLearning />} />
+            <Route path="/learn-ai" element={<LearnAI />} />
           </Routes>
         </div>
       </div>
