@@ -97,3 +97,6 @@
 }
 
 /* HomePage.css */
+html,body{
+  overflow: auto;
+}

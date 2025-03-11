@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./HomePage.css";
 
 function HomePage() {
-  // Main dashboard cards (Interview Bot, Dashboard, Progress)
+  // Main dashboard cards (Interview Bot, Dashboard, Progress, Collaborative Learning)
   const dashboardCards = [
     { 
       id: "interview", 
@@ -25,6 +25,13 @@ function HomePage() {
       image: "/src/assets/images/progress.jpeg", 
       description: "Track your learning journey and achievements",
       path: "/progress"
+    },
+    { 
+      id: "collaborative-learning", 
+      title: "Collaborative Learning", 
+      image: "/src/assets/bb.png", 
+      description: "Join study groups and collaborate with others",
+      path: "/collaborative-learning"
     }
   ];
 
